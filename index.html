@@ -30,39 +30,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="navbar-form navbar-left">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-              </form>
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </li>
+                <li><a href="izob">Izobrazba</a></li>
+                <li><a href="spre">Spretnosti</a></li>
+                <li><a href="progr_zna">Programerska znanja</a></li>
+                <li><a href="mehk_ves">Mehke veščine</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -70,57 +41,82 @@
       <div class="container">
       <div class="row">
         <div id="slika" class="col-md-3">
-          Semle pride slika
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <img src="ziga.jpg" alt="my picture" class="img-rounded" style="height: 200px; width:auto;">
+            </div>
+          </div>
         </div>
         <div id="osn_pod" class="col-xs-12 col-md-offset-1 col-md-8">
-          <div class="row">
-            <ul class"col-xs-12">
-              <h1>Osnovni podatki</h1>
-            </ul>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <ul class="list group">
-                <li class="list-group-item">Ime: Ziga</li>
-                <li class="list-group-item">Priimek: Mrak</li>
-                <li class="list-group-item">email: suirni@gmail.com</li>
-              </ul>
-          	</div>
-            <div class="col-md-6">
-              <ul class="list group">
-                <li class="list-group-item">Ime: Ziga</li>
-                <li class="list-group-item">Priimek: Mrak</li>
-                <li class="list-group-item">email: suirni@gmail.com</li>
-              </ul>
-          	</div>
+          <div class="panel panel-info">
+            <div class="panel-heading"><h1>Osnovni podatki</h1></div>
+              <div class="panel-body">
+                <div class="col-md-6">
+                  <ul class="list group">
+                    <li class="list-group-item">Ime: Ziga</li>
+                    <li class="list-group-item">Priimek: Mrak</li>
+                    <li class="list-group-item">email: suirni@gmail.com</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="list group">
+                    <li class="list-group-item">Naslov: Britof 162a</li>
+                    <li class="list-group-item">Kraj: Kranj</li>
+                    <li class="list-group-item">Telefon: 040 169 125</li>
+                  </ul>
+    	         </div>
+             </div>
           </div>
         </div>
-      </div>
       <div class="row">
         <div id="izob" class="col-xs-12">
-          <h1>Izobrazba</h1>
+          <div class="panel panel-default">
+            <div class="panel-heading"><h1>Izobrazba</h1>
+              <div class="panel-body">Whatever
+                <div class="well">
+                  <h2>Splošna gimnazija</h2>
+                    <p>Gimnazija</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
       <div class="row">
         <div id="progr_zna" class="col-xs-12 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading"><h1>Spretnosti</h1>
+            </div>
+              <div class="panel-body">Whatever
+              </div>
+          </div>
           <h1>Programerska znanja</h1>
-            <span class="label label-default">Default</span>
-            <span class="label label-primary">Primary</span>
-            <span class="label label-success">Success</span>
-            <span class="label label-info">Info</span>
-            <span class="label label-warning">Warning</span>
-            <span class="label label-danger">Danger</span>
+            <div><span class="label label-default">Windows</span></div>
+            <div><span class="label label-primary">Ubuntu</span></div>
+            <div><span class="label label-success">Android</span></div>
+            <div><span class="label label-info">Adobe</span></div>
+            <div><span class="label label-danger">HTML</span></div>
+            <div><span class="label label-warning">Office</span></div>
         </div>
         <div id="mehk_ves" class="col-xs-12 col-md-4">
-          <h1>Mehke veščine</h1>
+          <div class="panel panel-default">
+            <div class="panel-heading"><h1>Mehke veščine</h1>
+            </div>
+              <div class="panel-body">Whatever
+              </div>
+          </div>
         </div>
         <div id="pos_dos" class="col-xs-12 col-md-4">
-          <h1>Posebni dosežki</h1>
+          <div class="panel panel-default">
+            <div class="panel-heading"><h1>Posebni dosežki</h1>
+            </div>
+              <div class="panel-body">Whatever
+              </div>
+          </div>
         </div>
       </div>
       <div class="row">
         <div id="izob" class="col-xs-12">
-          <h1>Izkupnje</h1>
+          <h1>Izkušnje</h1>
         </div>
       </div>
     </div>
